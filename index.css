@@ -1,0 +1,86 @@
+* {
+  font-family: "Figtree", sans-serif;
+  box-sizing: border-box;
+}
+
+h1, p {
+  margin: 0;
+}
+
+body {
+  color: #111111;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4D04E;
+}
+
+
+.card-container {
+  width: 384px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: white;
+  border: 1px solid #111111;
+  border-radius: 20px;
+  box-shadow: 10px 10px #111111;
+  padding: 24px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tag {
+  align-self: baseline;
+  border-radius: 4px;
+  padding: 4px 12px;
+  background-color: #F4D04E;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+.logo {
+  border-radius: 10px;
+}
+
+.avatar-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+h1:hover {
+  color: #F4D04E;
+}
+
+p {
+  font-size: 14px; 
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.content-p {
+  color: #6B6B6B;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.avatar-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
