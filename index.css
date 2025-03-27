@@ -84,3 +84,7 @@ p {
   height: 32px;
   border-radius: 50%;
 }
+
+.avatar-paragraph {
+  font-weight: 800;
+}
